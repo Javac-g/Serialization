@@ -3,7 +3,7 @@ package com.company.Example;
 import java.io.Serializable;
 
 public class Car implements Serializable {
-    private String firm;
+    private final static String firm;
     private int id;
 
     public Car(String firm, int id) {
